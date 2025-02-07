@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python v HTML</title>
+</head>
+<body>
+    <h1>Spuštění JavaScript skriptu</h1>
+    <button onclick="runScript()">Spustit skript</button>
+    <p id="output"></p>
+
+    <script>
+        function runScript() {
+            let result = "Skript v JavaScriptu byl spuštěn!";
+            document.getElementById('output').innerText = result;
+        }
+    </script>
+</body>
+</html>
